@@ -1,0 +1,251 @@
+{
+  "uid" : "9df78129d22b6e9e",
+  "name" : "Perform  addition of  two numbers",
+  "fullName" : "Verify the basic arithmatic functionality of the system.Perform  addition of  two numbers",
+  "historyId" : "45928b111b0c46acedd07ee806659d10",
+  "time" : {
+    "start" : 1607605915106,
+    "stop" : 1607605940407,
+    "duration" : 25301
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "calculatorHome: pressNumber \"2\"",
+      "time" : {
+        "start" : 1607605933928,
+        "stop" : 1607605936005,
+        "duration" : 2077
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/digit_5\"}",
+        "time" : {
+          "start" : 1607605933928,
+          "stop" : 1607605935172,
+          "duration" : 1244
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/digit_2\"}",
+        "time" : {
+          "start" : 1607605935172,
+          "stop" : 1607605936005,
+          "duration" : 833
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "calculatorHome: pressArithmaticOperation \"+\"",
+      "time" : {
+        "start" : 1607605936005,
+        "stop" : 1607605937495,
+        "duration" : 1490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/op_add\"}",
+        "time" : {
+          "start" : 1607605936005,
+          "stop" : 1607605937495,
+          "duration" : 1490
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "calculatorHome: pressNumber \"2\"",
+      "time" : {
+        "start" : 1607605937495,
+        "stop" : 1607605939268,
+        "duration" : 1773
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/digit_3\"}",
+        "time" : {
+          "start" : 1607605937495,
+          "stop" : 1607605938375,
+          "duration" : 880
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/digit_2\"}",
+        "time" : {
+          "start" : 1607605938375,
+          "stop" : 1607605939268,
+          "duration" : 893
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "calculatorHome: pressEquals ",
+      "time" : {
+        "start" : 1607605939268,
+        "stop" : 1607605939614,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I tap {\"id\":\"com.google.android.calculator:id/eq\"}",
+        "time" : {
+          "start" : 1607605939268,
+          "stop" : 1607605939614,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "calculatorHome: verifyResult \"84\"",
+      "time" : {
+        "start" : 1607605939614,
+        "stop" : 1607605940407,
+        "duration" : 793
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I grab text from {\"id\":\"com.google.android.calculator:id/result_final\"}",
+        "time" : {
+          "start" : 1607605939615,
+          "stop" : 1607605940406,
+          "duration" : 791
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"84\", \"84\", \"Results do not match\"",
+      "time" : {
+        "start" : 1607605940409,
+        "stop" : 1607605940409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify the basic arithmatic functionality of the system"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify the basic arithmatic functionality of the system"
+  }, {
+    "name" : "testMethod",
+    "value" : "Perform  addition of  two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Verify the basic arithmatic functionality of the system"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9df78129d22b6e9e.json",
+  "parameterValues" : [ ]
+}

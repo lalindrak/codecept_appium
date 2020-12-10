@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify the basic arithmatic functionality of the system",
+    "children" : [ {
+      "name" : "Perform  addition of  two numbers",
+      "uid" : "9df78129d22b6e9e",
+      "parentUid" : "d4af4bf8012d24a594a961280b7811ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607605915106,
+        "stop" : 1607605940407,
+        "duration" : 25301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Perform  multiplication of  two numbers",
+      "uid" : "1070b0ccd05e4217",
+      "parentUid" : "d4af4bf8012d24a594a961280b7811ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607605940984,
+        "stop" : 1607605958181,
+        "duration" : 17197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Perform  division of  two numbers",
+      "uid" : "88652f34106cab35",
+      "parentUid" : "d4af4bf8012d24a594a961280b7811ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607605958775,
+        "stop" : 1607605973767,
+        "duration" : 14992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Perform  substraction of two numbers",
+      "uid" : "fc541480a5d4ad20",
+      "parentUid" : "d4af4bf8012d24a594a961280b7811ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607605974241,
+        "stop" : 1607605989263,
+        "duration" : 15022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d4af4bf8012d24a594a961280b7811ca"
+  } ]
+}

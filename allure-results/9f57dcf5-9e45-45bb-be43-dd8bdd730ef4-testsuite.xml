@@ -1,0 +1,375 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607605915105' stop='1607605989626'>
+    <name>Verify the basic arithmatic functionality of the system</name>
+    <title>Verify the basic arithmatic functionality of the system</title>
+    <test-cases>
+        <test-case start='1607605915106' status='passed' stop='1607605940407'>
+            <name>Perform  addition of  two numbers</name>
+            <title>Perform  addition of  two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1607605933928' status='passed' stop='1607605936005'>
+                    <name>calculatorHome: pressNumber "2"</name>
+                    <title>calculatorHome: pressNumber "2"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605933928' status='passed' stop='1607605935172'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_5"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_5"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605935172' status='passed' stop='1607605936005'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_2"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_2"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605936005' status='passed' stop='1607605937495'>
+                    <name>calculatorHome: pressArithmaticOperation "+"</name>
+                    <title>calculatorHome: pressArithmaticOperation "+"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605936005' status='passed' stop='1607605937495'>
+                            <name>I tap {"id":"com.google.android.calculator:id/op_add"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/op_add"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605937495' status='passed' stop='1607605939268'>
+                    <name>calculatorHome: pressNumber "2"</name>
+                    <title>calculatorHome: pressNumber "2"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605937495' status='passed' stop='1607605938375'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_3"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_3"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605938375' status='passed' stop='1607605939268'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_2"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_2"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605939268' status='passed' stop='1607605939614'>
+                    <name>calculatorHome: pressEquals </name>
+                    <title>calculatorHome: pressEquals </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605939268' status='passed' stop='1607605939614'>
+                            <name>I tap {"id":"com.google.android.calculator:id/eq"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/eq"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605939614' status='passed' stop='1607605940407'>
+                    <name>calculatorHome: verifyResult "84"</name>
+                    <title>calculatorHome: verifyResult "84"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605939615' status='passed' stop='1607605940406'>
+                            <name>I grab text from {"id":"com.google.android.calculator:id/result_final"}</name>
+                            <title>I grab text from {"id":"com.google.android.calculator:id/result_final"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605940409' status='passed' stop='1607605940409'>
+                    <name>I assert "84", "84", "Results do not match"</name>
+                    <title>I assert "84", "84", "Results do not match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607605940984' status='passed' stop='1607605958181'>
+            <name>Perform  multiplication of  two numbers</name>
+            <title>Perform  multiplication of  two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1607605951816' status='passed' stop='1607605953953'>
+                    <name>calculatorHome: pressNumber "0"</name>
+                    <title>calculatorHome: pressNumber "0"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605951816' status='passed' stop='1607605953090'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_2"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_2"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605953090' status='passed' stop='1607605953953'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_5"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_5"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605953953' status='passed' stop='1607605954809'>
+                    <name>calculatorHome: pressArithmaticOperation "x"</name>
+                    <title>calculatorHome: pressArithmaticOperation "x"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605953953' status='passed' stop='1607605954808'>
+                            <name>I tap {"id":"com.google.android.calculator:id/op_mul"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/op_mul"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605954809' status='passed' stop='1607605957058'>
+                    <name>calculatorHome: pressNumber "0"</name>
+                    <title>calculatorHome: pressNumber "0"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605954809' status='passed' stop='1607605955640'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_1"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_1"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605955641' status='passed' stop='1607605957058'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_0"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_0"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605957058' status='passed' stop='1607605957302'>
+                    <name>calculatorHome: pressEquals </name>
+                    <title>calculatorHome: pressEquals </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605957058' status='passed' stop='1607605957301'>
+                            <name>I tap {"id":"com.google.android.calculator:id/eq"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/eq"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605957302' status='passed' stop='1607605958181'>
+                    <name>calculatorHome: verifyResult "250"</name>
+                    <title>calculatorHome: verifyResult "250"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605957302' status='passed' stop='1607605958181'>
+                            <name>I grab text from {"id":"com.google.android.calculator:id/result_final"}</name>
+                            <title>I grab text from {"id":"com.google.android.calculator:id/result_final"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605958182' status='passed' stop='1607605958182'>
+                    <name>I assert "250", "250", "Results do not match"</name>
+                    <title>I assert "250", "250", "Results do not match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607605958775' status='passed' stop='1607605973767'>
+            <name>Perform  division of  two numbers</name>
+            <title>Perform  division of  two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1607605967138' status='passed' stop='1607605970139'>
+                    <name>calculatorHome: pressNumber "0"</name>
+                    <title>calculatorHome: pressNumber "0"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605967138' status='passed' stop='1607605969275'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_6"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_6"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605969276' status='passed' stop='1607605970139'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_0"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_0"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605970139' status='passed' stop='1607605971006'>
+                    <name>calculatorHome: pressArithmaticOperation "/"</name>
+                    <title>calculatorHome: pressArithmaticOperation "/"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605970139' status='passed' stop='1607605971006'>
+                            <name>I tap {"id":"com.google.android.calculator:id/op_div"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/op_div"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605971007' status='passed' stop='1607605972072'>
+                    <name>calculatorHome: pressNumber "0"</name>
+                    <title>calculatorHome: pressNumber "0"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605971007' status='passed' stop='1607605971258'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_1"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_1"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605971258' status='passed' stop='1607605972072'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_0"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_0"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605972072' status='passed' stop='1607605972907'>
+                    <name>calculatorHome: pressEquals </name>
+                    <title>calculatorHome: pressEquals </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605972072' status='passed' stop='1607605972907'>
+                            <name>I tap {"id":"com.google.android.calculator:id/eq"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/eq"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605972907' status='passed' stop='1607605973767'>
+                    <name>calculatorHome: verifyResult "6"</name>
+                    <title>calculatorHome: verifyResult "6"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605972907' status='passed' stop='1607605973767'>
+                            <name>I grab text from {"id":"com.google.android.calculator:id/result_final"}</name>
+                            <title>I grab text from {"id":"com.google.android.calculator:id/result_final"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605973768' status='passed' stop='1607605973768'>
+                    <name>I assert "6", "6", "Results do not match"</name>
+                    <title>I assert "6", "6", "Results do not match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607605974241' status='passed' stop='1607605989263'>
+            <name>Perform  substraction of two numbers</name>
+            <title>Perform  substraction of two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1607605982829' status='passed' stop='1607605985098'>
+                    <name>calculatorHome: pressNumber "1"</name>
+                    <title>calculatorHome: pressNumber "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605982829' status='passed' stop='1607605984868'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_2"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_2"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605984868' status='passed' stop='1607605985098'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_4"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_4"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605985098' status='passed' stop='1607605986567'>
+                    <name>calculatorHome: pressArithmaticOperation "-"</name>
+                    <title>calculatorHome: pressArithmaticOperation "-"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605985098' status='passed' stop='1607605986567'>
+                            <name>I tap {"id":"com.google.android.calculator:id/op_sub"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/op_sub"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605986567' status='passed' stop='1607605987605'>
+                    <name>calculatorHome: pressNumber "1"</name>
+                    <title>calculatorHome: pressNumber "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605986567' status='passed' stop='1607605986786'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_1"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_1"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1607605986787' status='passed' stop='1607605987605'>
+                            <name>I tap {"id":"com.google.android.calculator:id/digit_1"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/digit_1"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605987605' status='passed' stop='1607605988453'>
+                    <name>calculatorHome: pressEquals </name>
+                    <title>calculatorHome: pressEquals </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605987605' status='passed' stop='1607605988453'>
+                            <name>I tap {"id":"com.google.android.calculator:id/eq"}</name>
+                            <title>I tap {"id":"com.google.android.calculator:id/eq"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605988453' status='passed' stop='1607605989263'>
+                    <name>calculatorHome: verifyResult "13"</name>
+                    <title>calculatorHome: verifyResult "13"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1607605988453' status='passed' stop='1607605989263'>
+                            <name>I grab text from {"id":"com.google.android.calculator:id/result_final"}</name>
+                            <title>I grab text from {"id":"com.google.android.calculator:id/result_final"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1607605989264' status='passed' stop='1607605989264'>
+                    <name>I assert "13", "13", "Results do not match"</name>
+                    <title>I assert "13", "13", "Results do not match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
